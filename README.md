@@ -21,3 +21,11 @@ to register use postman since there no frontend choose post method and Body as J
   TO FETCH THE DATA USING USERNAME AND PASSWORD FROM DATA USE THE BELOW ENDPOINT WHICH IS GETHOD WITH QUERY PARAMS TAKES AS INPUT
   http://localhost:8080/api/user/fetch?username=ganesh1212&password=GANESH123
   NOTE : here the username = your username ,password = your password
+  curl -X POST http://localhost:8080/api/users \
+  -H "Content-Type: application/json" \
+  -d '{
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "password": "password123"
+      }'
+
