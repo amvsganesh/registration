@@ -1,7 +1,7 @@
 
 # Registration
 
-Welcome to Project Name! This project is a Spring Boot application for managing users.
+Welcome to RegisterandLogin! This project is a Spring Boot application for managing users.
 
 ## Prerequisites
 
